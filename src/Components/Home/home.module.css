@@ -1,0 +1,43 @@
+.mainContainer{
+   margin-top: 50px;
+}
+.mainContainer button{
+    padding: 13px;
+    border: 1px solid  rgb(49, 49, 119);
+    color: rgb(255, 242, 233);
+    background-color: rgb(49, 49, 119);
+}
+.mainContainer button:hover{
+    background-color: seashell;
+    color: rgb(49, 49, 119);
+}
+.mainContainer h2{
+    padding-bottom: 5px;
+}
+.mainContainer p {
+    color: rgb(114, 111, 111);
+    font-weight: 300;
+    padding-block: 5px;
+    padding-bottom: 15px;
+}
+
+/* Left Col */
+.firstCol{
+    align-self: center;
+    padding-left: 50px;
+}
+.firstCol img{
+    width: 750px;
+    top: 70px;
+    left: -100px;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.3;
+}
+/* Right Col */
+.teamPic img{
+    width: 450px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
