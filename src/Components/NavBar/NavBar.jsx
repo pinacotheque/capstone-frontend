@@ -9,8 +9,8 @@ export default function NavBar() {
         <Container>
         <Navbar.Brand href="#home">TeamUp</Navbar.Brand>
         <Nav>
-        <Nav.Link href="#home">Sign up</Nav.Link>
-        <Nav.Link href="#features">Log in</Nav.Link>
+        <Nav.Link href="/register">Sign up</Nav.Link>
+        <Nav.Link href="/login">Log in</Nav.Link>
         <Nav.Link href="#pricing">About</Nav.Link>
         </Nav>
         </Container>
