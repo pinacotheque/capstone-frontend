@@ -7,6 +7,8 @@ import Landing from './Components/Home/Landing'
 import Login from './Components/Login/Login'
 import Register from './Components/Register/Register';
 import Home from './Components/Home/Home'
+import 'react-calendar/dist/Calendar.css';
+
 
 
 

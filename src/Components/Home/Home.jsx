@@ -2,6 +2,7 @@ import React from 'react'
 import {Col, Container, Row, Card, ListGroup, ListGroupItem} from 'react-bootstrap'
 import Feed from './Feed.jsx'
 import styles from './home.module.css'
+import Calendar from 'react-calendar'
 
 export default function Home() {
     return (
@@ -9,7 +10,7 @@ export default function Home() {
             <Container className={styles.home}>
                 <Row>
                     <Col lg={1}>
-                    <Card style={{ width: '18rem' }}>
+                    <Card className={styles.sideCard}>
                         <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
                         <Card.Body>
                             <Card.Title>Username</Card.Title>
@@ -34,7 +35,8 @@ export default function Home() {
                         <Feed/>
                     </Col>
 
-                    <Col lg={4}>
+                    <Col lg={3}>
+                        <Calendar/>
                     </Col>
                 </Row>
             </Container>
