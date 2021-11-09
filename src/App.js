@@ -21,8 +21,8 @@ function App() {
       <Route exact path='/home' render={(routerProps) => <Home />} />
 
 
-
-      <Route exact path='/' render={(routerProps) => <Footer />} />
+      {/* 
+      <Route exact path='/' render={(routerProps) => <Footer />} /> */}
 
     </Router>
   );

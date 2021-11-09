@@ -1,12 +1,14 @@
 import React from 'react'
 import {Col, Container, Row, Card, ListGroup, ListGroupItem} from 'react-bootstrap'
+import Feed from './Feed.jsx'
+import styles from './home.module.css'
 
 export default function Home() {
     return (
         <div>
-            <Container className='mt-5'>
+            <Container className={styles.home}>
                 <Row>
-                    <Col lg={2}>
+                    <Col lg={1}>
                     <Card style={{ width: '18rem' }}>
                         <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
                         <Card.Body>
@@ -28,8 +30,8 @@ export default function Home() {
                     </Card>
                     </Col>
 
-                    <Col lg={6}>
-                        
+                    <Col lg={6} className="offset-2">
+                        <Feed/>
                     </Col>
 
                     <Col lg={4}>

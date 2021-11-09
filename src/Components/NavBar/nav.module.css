@@ -1,5 +1,11 @@
 .nav{
     color: white !important;
-    background-color: snow;
-    border-bottom: 1px solid rgb(199, 199, 199) ;
+    background-color: #FBF8EF;
+    border-bottom: 1px solid hsla(30, 98%, 40%, 0.701) ;
+    box-shadow: 0 2px 2px 0 rgba(243, 154, 113, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19)
+}
+.links {
+    color: #3532C1 !important;
+    font-weight: 500;
+    font-size: 18px;
 }
