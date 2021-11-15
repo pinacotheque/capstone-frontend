@@ -8,14 +8,18 @@ import Login from './Components/Login/Login'
 import Register from './Components/Register/Register';
 import Home from './Components/Home/Home'
 import 'react-calendar/dist/Calendar.css';
+import { useState } from 'react'
 
 
 
 
 function App() {
+
+  const [loggedIn, setLoggedIn] = useState(false)
+
   return (
     <Router>
-      <Route exact path={['/', '/home', '/login', '/register']} render={(routerProps) => <NavBar />} />
+      <Route exact path={['/', '/home', '/login', '/register']} render={(routerProps) => <NavBar loggedIn={loggedIn} />} />
 
       <Route exact path='/' render={(routerProps) => <Landing />} />
       <Route exact path='/login' render={(routerProps) => <Login />} />
