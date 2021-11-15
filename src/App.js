@@ -15,7 +15,7 @@ import 'react-calendar/dist/Calendar.css';
 function App() {
   return (
     <Router>
-      <Route exact path={['/', '/home']} render={(routerProps) => <NavBar />} />
+      <Route exact path={['/', '/home', '/login', '/register']} render={(routerProps) => <NavBar />} />
 
       <Route exact path='/' render={(routerProps) => <Landing />} />
       <Route exact path='/login' render={(routerProps) => <Login />} />

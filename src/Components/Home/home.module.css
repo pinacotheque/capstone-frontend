@@ -48,7 +48,7 @@
 }
 
 .home{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 .inputDiv, .inputPost{
     border: 1px solid rgba(185, 185, 185, 0.425);
@@ -81,12 +81,13 @@
 }
 
 .inputPost button{
+    height: fit-content;
     width: fit-content;
+    padding-block: 10px;
     margin-right: 10px;
-    padding: 10px;
     padding-inline: 20px;
     border: 1px solid  rgb(49, 49, 119);
-    border-radius: 5px;
+    border-radius: 20px;
     color: rgb(255, 242, 233);
     background-color: rgb(49, 49, 119);
 }

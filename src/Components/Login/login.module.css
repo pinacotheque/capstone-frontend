@@ -1,8 +1,12 @@
 .imageCol{
+    background-image: '../';
+    width: 20%;
 }
 .imageCol img{
-    height: 100vh !important;   
-    left: 0;
+    position: relative;
+    left: -150px;   
+    opacity: 0.82;
+    width: 1000px;
 }
 
 .formCol{

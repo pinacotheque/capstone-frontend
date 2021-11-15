@@ -1,11 +1,12 @@
 
 .imageCol img{
-    height: 100vh !important;   
+  
+    width: 100%;
     left: 0;
+    opacity: 0.82;
 }
 
 .formCol{
-    align-self: center;
 }
 
 .formCol form{

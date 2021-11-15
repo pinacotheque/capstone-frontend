@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import image2 from '../assets/image2.png'
+import image1 from '../assets/image1.png'
 import image3 from '../assets/image3.png'
 import image4 from '../assets/image4.png'
 
@@ -11,14 +11,12 @@ export default function Login() {
         <div>
             <Row>
                 <Col className={styles.imageCol} >
-                <img src={image2}/>
+                <img src={image1}/>
                 </Col>
 
                 <Col className={styles.formCol} >
 
                 <form >
-                <img src={image3} className={styles.image3}/>
-                <img src={image4} className={styles.image4}/>
 
                 
                 <h3>Sign In</h3>
