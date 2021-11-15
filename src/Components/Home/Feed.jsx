@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './home.module.css'
-import {Container, Col, Row, Modal, Button} from 'react-bootstrap'
 import { useState } from 'react'
 import SingleGame from './SingleGame.jsx'
 import PostGame from '../Modals/PostGame'

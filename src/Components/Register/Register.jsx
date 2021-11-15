@@ -1,11 +1,12 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import image1 from '../assets/image1.png'
 import { useState } from 'react'
 
 import styles from './register.module.css'
 
 export default function Register() {
+    const BACKEND_URL = "http://localhost:3020"
 
     const [user, setUser] = useState({
         username : "",
@@ -22,7 +23,7 @@ export default function Register() {
   const postUser = async (e) => {
     e.preventDefault()
     const result = await fetch(
-      "http://localhost:3020/users/register" ,
+      BACKEND_URL + "/users/register" ,
       {
         method: "POST",
         body: JSON.stringify(user),
@@ -35,7 +36,6 @@ export default function Register() {
     if (result.ok) {
       console.log("successfully posted user")
       console.log(result)
-      setUser()
     } else {
       console.log("error with posting user")
     }
