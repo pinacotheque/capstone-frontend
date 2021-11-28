@@ -1,0 +1,11 @@
+ button{
+    padding: 15px 20px 15px 20px;
+    border: 1px solid  rgb(49, 49, 119);
+    border-radius: 30px;
+    color: rgb(255, 242, 233);
+    background-color: rgb(49, 49, 119);
+}
+button:hover{
+    background-color: seashell;
+    color: rgb(49, 49, 119);
+}

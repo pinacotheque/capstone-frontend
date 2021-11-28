@@ -1,17 +1,7 @@
 .mainContainer{
    margin-top: 80px;
 }
-.mainContainer button{
-    padding: 20px;
-    border: 1px solid  rgb(49, 49, 119);
-    border-radius: 30px;
-    color: rgb(255, 242, 233);
-    background-color: rgb(49, 49, 119);
-}
-.mainContainer button:hover{
-    background-color: seashell;
-    color: rgb(49, 49, 119);
-}
+
 .mainContainer h2{
     padding-bottom: 5px;
 }

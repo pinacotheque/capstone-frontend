@@ -1,12 +1,15 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 import image1 from '../assets/image1.png'
 import image3 from '../assets/image3.png'
-import image4 from '../assets/image4.png'
-
 import styles from './login.module.css'
+import { useState } from 'react'
+
 
 export default function Login() {
+  
+  const BACKEND_URL = "http://localhost:3020"
+
     const [user, setUser] = useState({
         email: "",
         password : ""
@@ -45,10 +48,7 @@ export default function Login() {
                 </Col>
 
                 <Col className={styles.formCol} >
-
                 <form >
-
-                
                 <h3>Sign In</h3>
 
                 <div className="form-group">
